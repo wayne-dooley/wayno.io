@@ -1,0 +1,30 @@
+---
+layout: default
+title: professional
+---
+<div class="container-fluid topic">
+  <div class="container pt-5 pb-3">
+    <h1 class="text-white">professional</h1>
+    <p class=" text-white">the grown up stuff</p>
+  </div>
+</div>
+
+<div class="container mt-5">
+    <h2>Work experience</h2>
+    <p class="mb-5">Just a taste. Check out <a href="https://www.linkedin.com/in/waynedooley/" target="_blank">my LinkedIn profile</a> for more.</p>
+    <hr />
+      {% for job in site.data.experience %}
+        <div class="row mb-2 mt-3">
+            <div class="col-md-5 mt-2 mb-2">
+                <strong>{{ job.company }}</strong><br>
+                {{ job.dates }}
+            </div>
+            <div class="col-md-7 mt-2 mb-2">
+                <strong>{{ job.position }}</strong><br>
+                {{ job.location }}
+                <p class="pt-2">{{ job.description }}</p>
+            </div>
+        </div>
+        <hr />
+    {% endfor %}
+</div>
