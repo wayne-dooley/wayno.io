@@ -1,5 +1,6 @@
 ---
 ---
+
 /* modify Bootstrap variables here */
 
 @import 'bootstrap/bootstrap';
@@ -15,4 +16,8 @@
     color: white;
     font-size: 1.5rem;
     padding-right: .3rem;
+}
+
+.topic {
+    background-image: url(/img/green-geo-background.png);
 }

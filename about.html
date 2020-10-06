@@ -1,0 +1,32 @@
+---
+layout: default
+title: about me
+---
+<div class="container-fluid topic">
+  <div class="container pt-5 pb-3">
+    <h1 class="text-white">about me</h1>
+    <p class=" text-white">software developer - woodworker - cinema enthusiast</p>
+  </div>
+</div>
+
+<div class="container mt-5">
+  <h2>Get to know me in thirty questions</h2>
+  <p class="mb-4">Any more than that is just creepy, man.</p>
+  <hr />
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ol class="mt-4">
+          {% for qa in site.data.aboutme %}
+            <li class="pb-3 pr-5"><strong>{{ qa.question }}?</strong><br />
+              {{ qa.answer }}
+            </li>
+          {% endfor %}
+        </ol>      
+      </div>
+      <div class="col-md-4">
+        <img src="assets/img/riley.jpg" class="img-thumbnail rounded mt-5"><p class="pt-2 pl-2"><em>Riley, the good boy.</em></p>
+      </div>
+    </div>
+  </div>
+</div>
