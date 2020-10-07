@@ -12,7 +12,7 @@ title: welcome
             <p class="text-white">I'm Wayne Dooley, and this is yet another resurrection of my personal web presence. </p>
             <p class="text-white">Since the mid-90s, I've enjoyed seting up sites like this, forgetting them after a while, and then kicking off another one. Like this one.</p>
             <p class="text-white">Stay tuned. Or not. Either way, thanks for stopping by.</p>
-            <a href="mailto:w@yno.io"><button type="button" class="btn btn-primary mr-2">Contact me</button></a>
+            <a href="/contact.html"><button type="button" class="btn btn-primary mr-2">Contact me</button></a>
             <a href="https://www.amazon.com/hz/wishlist/ls/2P1E48SNUKWB2?ref_=wl_share" target="_blank"><button type="button" class="btn btn-outline-light">Spoil me</button></a>
         </div>
         <div class="col-lg-3 col-sm-4 mt-3">
@@ -22,10 +22,9 @@ title: welcome
   </div>
   <div class="container mt-3">
         <ul class="list-inline">
-            <li class="list-inline-item"><a href="https://www.facebook.com/wayno.io/" target="_blank"><span class="fab fa-facebook-square social-icons"></span></a></li>
-            <li class="list-inline-item"><a href="https://twitter.com/wayno" target="_blank"><span class="fab fa-twitter-square social-icons"></span></a></li>
-            <li class="list-inline-item"><a href="https://www.linkedin.com/in/waynedooley/" target="_blank"><span class="fab fa-linkedin social-icons"></span></a></li>
-            <li class="list-inline-item"><a href="https://www.instagram.com/mr_wayno/" target="_blank"><span class="fab fa-instagram-square social-icons"></span></a></li>
+          {% for contact in site.data.contacts %}
+            <li class="list-inline-item"><a href="{{ contact.url }}" target="_blank"><span class="{{ contact.icon }} social-icons"></span></a></li>
+          {% endfor %}
         </ul>
     </div>
 </div>

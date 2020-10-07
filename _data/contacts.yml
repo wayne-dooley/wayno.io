@@ -1,0 +1,24 @@
+- site: facebook.com/wayno.io
+  url: https://www.facebook.com/wayno.io/
+  icon: fab fa-facebook-square
+
+- site: twitter.com/wayno
+  url: https://twitter.com/wayno
+  icon: fab fa-twitter-square
+
+- site: linkedin.com/in/waynedooley
+  url: https://www.linkedin.com/in/waynedooley/"
+  icon: fab fa-linkedin
+
+- site: instagram.com/mr_wayno
+  url: https://www.instagram.com/mr_wayno/
+  icon: fab fa-instagram-square
+
+- site: w@yno.io
+  url: mailto:w@yno.io
+  icon: fas fa-envelope-square
+
+- site: github.com/wayne-dooley
+  url: https://github.com/wayne-dooley
+  icon: fab fa-github-square
+

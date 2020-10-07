@@ -12,17 +12,27 @@
     background-size: cover;
 }
 
+.social-align {
+    display: flex; 
+    align-items: center;
+}
+
 .social-icons {
     color: white;
-    font-size: 1.5rem;
-    padding-right: .3rem;
+    font-size: 1.8rem;
+    padding-right: .4rem;
 }
 
 .social-icons-dk {
     font-size: 2.2rem;
     padding-right: 1.1rem;
-    padding-bottom: .5rem;
 }
+
+@include media-breakpoint-up(md) {
+    .custom-col {
+        column-count: 2;
+    }
+  }
 
 .topic {
     background-image: url(/img/green-geo-background.png);

@@ -14,15 +14,10 @@ title: contact
   <p class="mb-4">Let me know how you're doing.</p>
     <hr />
         <div class="row mb-2 mt-3">
-            <div class="col-md-5 mt-2 mb-2">
-              <p><a href="https://www.facebook.com/wayno.io/" target="_blank" class="text-secondary"><span class="fab fa-facebook-square social-icons-dk"></span>facebook.com/wayno.io</a></p>
-              <p><a href="https://twitter.com/wayno" target="_blank" class="text-secondary"><span class="fab fa-twitter-square social-icons-dk"></span>twitter.com/wayno</a></p>
-              <p><a href="https://www.linkedin.com/in/waynedooley/" target="_blank" class="text-secondary"><span class="fab fa-linkedin social-icons-dk"></span>linkedin.com/in/waynedooley</a></p>
-            </div>
-            <div class="col-md-7 mt-2 mb-2">
-              <p><a href="mailto:w@yno.io" target="_blank" class="text-secondary"><span class="fas fa-envelope-square social-icons-dk"></span>w@yno.io</a></p>
-              <p><a href="https://www.instagram.com/mr_wayno/" target="_blank" class="text-secondary"><span class="fab fa-instagram-square social-icons-dk"></span>instagram.com/mr_wayno</a></p>
-              <p><a href="https://github.com/wayne-dooley" target="_blank" class="text-secondary"><span class="fab fa-github-square social-icons-dk"></span>github.com/wayne-dooley</a></p>
+            <div class="pl-4 custom-col">
+              {% for contact in site.data.contacts %}
+              <p class="pr-5"><a href="{{ contact.url }}" target="_blank" class="text-secondary social-align"><span class="{{ contact.icon }} social-icons-dk"></span>{{ contact.site }}</a></p>
+              {% endfor %}
             </div>
         </div>
         <hr />
