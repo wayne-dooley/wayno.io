@@ -28,3 +28,42 @@ title: welcome
         </ul>
     </div>
 </div>
+
+<div class="container mt-5">
+  <a name="professional"></a>
+  <h1 class="mb-5"><strong>Professional</strong></h1>
+  <h2>Experience</h2>
+  <p class="mb-5">Just a taste. Check out <a href="https://www.linkedin.com/in/waynedooley/" target="_blank">my LinkedIn profile</a> for more.</p>
+  <hr />
+    {% for job in site.data.experience %}
+      <div class="row mb-2 mt-3">
+          <div class="col-md-5 mt-2 mb-2">
+              <strong>{{ job.company }}</strong><br>
+              {{ job.dates }}
+          </div>
+          <div class="col-md-7 mt-2 mb-2">
+              <strong>{{ job.position }}</strong><br>
+              {{ job.location }}
+              <p class="pt-2">{{ job.description }}</p>
+          </div>
+      </div>
+      <hr />
+  {% endfor %}
+</div>
+
+<div class="container-fluid bg-light">
+  <div class="container mt-5 pt-5 pb-5">
+    <a name="contact"></a>
+    <h1 class="mb-5"><strong>Contact</strong></h1>
+      <hr />
+        <div class="row mb-2 mt-3">
+            <div class="pl-4 custom-col">
+              {% for contact in site.data.contacts %}
+              <p class="pr-5"><a href="{{ contact.url }}" target="_blank" class="text-secondary social-align"><span class="{{ contact.icon }} social-icons-dk"></span>{{ contact.site }}</a></p>
+              {% endfor %}
+            </div>
+        </div>
+      <hr />
+  </div>
+</div>
+
