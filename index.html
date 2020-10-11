@@ -8,62 +8,26 @@ title: welcome
   </div>
   <div class="container">
     <div class="row">
-        <div class="col-lg-9 col-sm-8 mt-3 mb-5">
-            <p class="text-white">I'm Wayne Dooley, and this is yet another resurrection of my personal web presence. </p>
-            <p class="text-white">Since the mid-90s, I've enjoyed seting up sites like this, forgetting them after a while, and then kicking off another one. Like this one.</p>
-            <p class="text-white">Stay tuned. Or not. Either way, thanks for stopping by.</p>
-            <a href="#contact"><button type="button" class="btn btn-primary mr-2">Contact me</button></a>
-            <a href="https://www.amazon.com/hz/wishlist/ls/2P1E48SNUKWB2?ref_=wl_share" target="_blank"><button type="button" class="btn btn-outline-light">Spoil me</button></a>
+        <div class="col-lg-9 col-sm-8 mt-3 mb-5 pr-5">
+          <p class="text-white">I'm Wayne Dooley, and this is yet another resurrection of my personal web presence. </p>
+          <p class="text-white">I'm a technical project manager and web developer for the National Institutes of Health. I've worked remotely from Texas for the past five years, thoroughly enjoying the advantages modern technology and my progressive leadership afford me to do this. I've held a number of other technology jobs prior to this, and served 21 years active duty for the US Air Force.</p>
+          <p class="text-white">I'm also an active woodworker, slowly working my way from novice level. My wife doesn't mind that I've taken over the garage as a woodshop, as long as I periodically build her items as tribute. I also enjoy photography, movies, social media, and building the occasional personal website.</p>
+            <p class="text-white pb-3">Stay tuned. Or not. Either way, thanks for stopping by.</p>
+            <p><a href="/contact.html"><button type="button" class="btn btn-primary mr-2">Contact me</button></a>
+            <a href="https://www.amazon.com/hz/wishlist/ls/2P1E48SNUKWB2?ref_=wl_share" target="_blank"><button type="button" class="btn btn-outline-light">Spoil me</button></a></p>
         </div>
         <div class="col-lg-3 col-sm-4 mt-3">
             <img src="img/wayno_io_mug_shot.png" class="img-fluid border border-light rounded">
         </div>
     </div>
   </div>
+<!--
   <div class="container mt-3">
-        <ul class="list-inline">
-          {% for contact in site.data.contacts %}
-            <li class="list-inline-item"><a href="{{ contact.url }}" target="_blank"><span class="{{ contact.icon }} social-icons"></span></a></li>
-          {% endfor %}
-        </ul>
-    </div>
+      <ul class="list-inline">
+        {% for contact in site.data.contacts %}
+          <li class="list-inline-item"><a href="{{ contact.url }}" target="_blank"><span class="{{ contact.icon }} social-icons"></span></a></li>
+        {% endfor %}
+      </ul>
   </div>
-
-<div class="container">
-  <a name="professional">&nbsp;</a>
-  <h1 class="mt-5 mb-5"><strong>Professional</strong></h1>
-  <h2>Experience</h2>
-  <p class="mb-5">Just a taste. Check out <a href="https://www.linkedin.com/in/waynedooley/" target="_blank">my LinkedIn profile</a> for more.</p>
-  <hr />
-    {% for job in site.data.experience %}
-      <div class="row mb-2 mt-3">
-          <div class="col-md-5 mt-2 mb-2">
-              <strong>{{ job.company }}</strong><br>
-              {{ job.dates }}
-          </div>
-          <div class="col-md-7 mt-2 mb-2">
-              <strong>{{ job.position }}</strong><br>
-              {{ job.location }}
-              <p class="pt-2">{{ job.description }}</p>
-          </div>
-      </div>
-      <hr />
-  {% endfor %}
+-->
 </div>
-
-<div class="container-fluid bg-light">
-  <div class="container mt-5 pt-5 pb-5">
-    <a name="contact">&nbsp;</a>
-    <h1 class="mb-5"><strong>Contact</strong></h1>
-      <hr />
-        <div class="row mb-2 mt-3">
-            <div class="pl-4 custom-col">
-              {% for contact in site.data.contacts %}
-              <p class="pr-5"><a href="{{ contact.url }}" target="_blank" class="text-secondary social-align"><span class="{{ contact.icon }} social-icons-dk"></span>{{ contact.site }}</a></p>
-              {% endfor %}
-            </div>
-        </div>
-      <hr />
-  </div>
-</div>
-
