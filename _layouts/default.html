@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   {% include header.html %}
-  <body>
+  <body class="d-flex flex-column h-100">
     {% include navbar.html %}
+    <main role="main" class="flex-shrink-0">
       {{ content }}
-    <!-- {% include footer.html %} -->
+    </main>
+    {% if page.title != "welcome" %}
+      {% include footer.html %}
+    {% endif %}
     <script src="/js/jquery-3.5.1.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script>
