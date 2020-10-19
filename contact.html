@@ -1,21 +1,16 @@
 ---
 layout: default
-title: contact
+title: Contact
 ---
-<div class="container-fluid topic">
-  <div class="container pt-5 mb-5 pb-3">
-    <h1 class="display-4 mt-0 mb-3 text-white">Contact</h1>
-  </div>
-</div>
 <div class="container mt-5 mb-5 pb-5">
   <p class="mb-5">Drop me a line, let me know how you're doing. Blink once for yes.</p>
-    <hr />
-        <div class="row mb-2 mt-3">
-            <div class="pl-4 custom-col">
-              {% for contact in site.data.contacts %}
-              <p class="pr-5"><a href="{{ contact.url }}" target="_blank" class="text-secondary social-align"><span class="{{ contact.icon }} social-icons-dk"></span>{{ contact.site }}</a></p>
-              {% endfor %}
-            </div>
-        </div>
-        <hr />
+  <hr />
+  <div class="row mb-2 mt-3">
+    <div class="pl-4 custom-col">
+      {% for contact in site.data.contacts %}
+      <p class="pr-5"><a href="{{ contact.url }}" target="_blank" class="text-secondary social-align"><span class="{{ contact.icon }} social-icons-dk"></span>{{ contact.site }}</a></p>
+      {% endfor %}
+    </div>
+  </div>
+  <hr />
 </div>

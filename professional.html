@@ -1,28 +1,23 @@
 ---
 layout: default
-title: professional
+title: Professional
 ---
-<div class="container-fluid topic">
-  <div class="container pt-5 mb-5 pb-3">
-    <h1 class="display-4 mt-0 mb-3 text-white">Professional</h1>
-  </div>
-</div>
-  <div class="container mt-5 mb-5 pb-5">
-    <h2>Work experience</h2>
-    <p class="mb-5">The grown-up stuff. Just a taste; check out <a href="https://www.linkedin.com/in/waynedooley/" target="_blank">my LinkedIn profile</a> for more.</p>
-    <hr />
-      {% for job in site.data.experience %}
-        <div class="row mb-2 mt-3">
-            <div class="col-md-5 mt-2 mb-2">
-                <strong>{{ job.company }}</strong><br>
-                {{ job.dates }}
-            </div>
-            <div class="col-md-7 mt-2 mb-2">
-                <strong>{{ job.position }}</strong><br>
-                {{ job.location }}
-                <p class="pt-2">{{ job.description }}</p>
-            </div>
-        </div>
-        <hr />
-    {% endfor %}
+<div class="container mt-5 mb-5 pb-5">
+  <h2>Work experience</h2>
+  <p class="mb-5">The grown-up stuff. Just a taste; check out <a href="https://www.linkedin.com/in/waynedooley/" target="_blank">my LinkedIn profile</a> for more.</p>
+  <hr />
+    {% for job in site.data.experience %}
+      <div class="row mb-2 mt-3">
+          <div class="col-md-5 mt-2 mb-2">
+              <strong>{{ job.company }}</strong><br>
+              {{ job.dates }}
+          </div>
+          <div class="col-md-7 mt-2 mb-2">
+              <strong>{{ job.position }}</strong><br>
+              {{ job.location }}
+              <p class="pt-2">{{ job.description }}</p>
+          </div>
+      </div>
+      <hr />
+  {% endfor %}
 </div>

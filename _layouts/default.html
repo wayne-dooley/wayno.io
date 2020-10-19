@@ -4,6 +4,9 @@
   <body>
     {% include navbar.html %}
     <main role="main">
+      {% if page.title != "welcome" %}
+        {% include content-header.html %}
+      {% endif %}
       {{ content }}
     </main>
     {% if page.title != "welcome" %}
