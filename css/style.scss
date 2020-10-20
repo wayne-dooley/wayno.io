@@ -38,3 +38,21 @@
 .topic {
     background-image: url(/img/green-geo-background.png);
 }
+
+.footer-list ul {
+    padding: 0;
+    margin: 0;
+}
+.footer-list li {
+    display: inline-block;
+    border-right: 1px solid #ccc;
+    padding: 0 1em;
+}
+
+.footer-list li:last-child {
+    border-right: none;
+}
+
+.footer-list li a {
+    color: white;
+}
