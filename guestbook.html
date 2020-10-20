@@ -1,0 +1,14 @@
+---
+layout: default
+title: Guestbook
+comments: true
+---
+<div class="container mt-5 mb-5 pb-5">
+  <h2>Sign here</h2>
+  <p>Remember when guestbooks were a feature of just about any personal site? No? Well, trust me, they were. I'm taking it back. Drop me a line, let me know you were here.</p>
+  <hr />
+  {% if page.comments %}
+    {% include disqus_comments.html %}                                
+  {% endif %}
+  <hr />
+</div>
