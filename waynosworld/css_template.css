@@ -1,0 +1,231 @@
+---  see site: http://www.planetkyoto.com/nils/
+
+body {
+
+background:#fff;		
+
+		}
+	
+
+	A 		{ color: #666666; text-decoration: underline; }
+	A:link	{ color: #666666; text-decoration: underline; }
+	A:visited	{ color: #666666; text-decoration: underline; }
+	A:active	{ color: #999999;  }
+	A:hover	{ color: #999999;  }
+
+h1, h2, h3 {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	#banner {
+		font-family:verdana, helvetica, sans-serif;
+		font-size: 14px;
+              		color: #990000;			
+		}
+		
+	#banner a,
+        #banner a:link,
+        #banner a:visited,
+        #banner a:active,
+        #banner a:hover {
+		font-family:verdana, helvetica, sans-serif;
+              font-weight:bold;
+		font-size: 14px;
+             color: #990000;	
+		text-decoration: underline;
+             
+		}
+
+ 
+
+
+#leftcol{
+ position:absolute;
+left:10px;
+top:10px;
+ width:200px;
+padding:10px;
+} 
+
+
+#centercol{
+ position:absolute;
+left:220px;
+ width:400px;
+top:100px;
+padding:10px;
+border-left:1px dotted #999;
+border-right:1px dotted #999;
+background:#fff;
+} 
+
+#rightcol{
+ position:absolute;
+left:640px;
+top:10px;
+ width:150px;
+padding:10px;
+} 
+
+.aikflag{
+ position:absolute;
+left:250px;
+top:40px;
+} 
+
+.description {
+                   font-family: verdana, helvetica, sans-serif;
+                   font-weight:normal;
+                   color:#000;
+                   font-size:10px;
+                   position:absolute;
+                   left:310px;
+                   top:85px;
+                   }
+
+
+	
+	.blogbody {
+		font-family:verdana, helvetica, sans-serif;
+		color:#666666;
+		font-size:12px;
+		font-weight:normal;
+  		line-height:170%;
+		}
+
+	.blogbody a,
+	.blogbody a:link,
+	.blogbody a:visited,
+	.blogbody a:active,
+	.blogbody a:hover {
+		font-weight: normal;
+		text-decoration: underline;
+	}
+
+	.title	{
+		font-family:verdana, helvetica, sans-serif;
+		font-size: 14px;
+		color: #990000;
+		}			
+	
+
+	.date	{ 
+		font-family:verdana, helvetica, sans-serif;
+		font-size:16px; 
+		color: #666666; 
+              padding-bottom: 5px;
+		border-bottom:1px solid #999;
+		margin-bottom:10px;
+		font-weight:bold;
+		}			
+
+	.posted	{ 
+		font-family:verdana, arial, sans-serif; 
+		font-size: 10px; 
+		color: #666666; 
+		margin-bottom:20px;
+		}
+		
+			
+	.side {
+		font-family:verdana, helvetica, sans-serif;
+		color:#666666;
+		font-size:10px;
+		font-weight:normal;
+  		  		line-height:140%;
+  		padding:2px;				
+		}	
+		
+	.sidetitle {
+		font-family: verdana, helvetica, sans-serif;
+		color:#990000;
+		font-size:12px;
+		font-weight:bold;
+  		padding:2px;
+  		margin-top:10px;	
+		}		
+	
+	.syndicate {
+		font-family:verdana, helvetica, sans-serif;
+		font-size:9px;		
+  		line-height:140%;
+  		padding:2px;
+  		margin-top:10px;  		
+ 		}	
+		
+	.bb {	
+             border:1px solid #999; 
+             padding:5px;
+		margin:5px;			
+		}
+	
+	.comments-body {
+		font-family:verdana,helvetica, sans-serif;
+		color:#666;
+		font-size:12px;
+		font-weight:normal;
+  		line-height:140%;
+ 		padding-bottom:10px;
+  		padding-top:10px;		
+ 		border-bottom:1px dotted #666; 					
+		}		
+
+	.comments-post {
+		font-family:verdana, arial, sans-serif;
+		color:#666;
+		font-size:10px;
+		font-weight:normal;	
+		}	
+			
+	
+	.trackback-url {
+		font-family: verdana, helvetica, sans-serif;
+		color:#666;
+		font-size:10px;
+		font-weight:normal;
+  		line-height:140%;
+ 		padding:5px;		
+ 		border:1px dotted #999; 					
+		}
+
+
+	.trackback-body {
+		font-family:verdana,helvetica, sans-serif;
+		color:#666;
+		font-size:12px;
+		font-weight:normal;
+  		line-height:140%;
+ 		padding-bottom:10px;
+  		padding-top:10px;		
+ 		border-bottom:1px dotted #999; 					
+		}		
+
+	.trackback-post {
+		font-family:verdana, helvetica, sans-serif;
+		color:#666;
+		font-size:10px;
+		font-weight:normal;		
+		}	
+
+		
+	.comments-head	{ 
+		font-family: verdana, helvetica, sans-serif; 
+		font-size:12px; 
+		color: #990000; 
+		border-bottom:1px solid #999;
+		margin-top:20px;
+		font-weight:bold;		
+		}		
+
+	#banner-commentspop {
+		font-family:font-family: verdana, helvetica, sans-serif;
+		color:#FFF;
+		font-size:18px;
+		font-weight:bold;		
+  		background:#990000;
+  		padding-left:15px;
+  		padding-right:15px;
+  		padding-top:5px;
+  		padding-bottom:5px;  		  		  			 
+		}

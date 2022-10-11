@@ -1,0 +1,194 @@
+WAYNE DOOLEY
+26551 Espalter Drive
+Mission Viejo, CA  92691
+(949) 770-1506
+wayno@waynosworld.com
+
+-----------------------------------------------------------------------
+Profile
+-----------------------------------------------------------------------
+
+Twenty years of progressive experience in project management, systems 
+analysis, programming, computer room operations, wide area network 
+management, and customer service solutions.  Competently juggle 
+multiple assignments while maintaining high emphasis on quality.  
+Strong technical problem solver, mediator, and motivator.
+
+-----------------------------------------------------------------------
+Key Skills
+-----------------------------------------------------------------------
+
+* Project Management                  * Systems Analysis
+* Supervision & Team Building         * Workflow Modeling
+* Process Reengineering               * User Interface Design
+* Training & Instruction              * Data Modeling
+* Productivity/Efficiency Increases   * Design Troubleshooting
+* Research & Analysis                 * Technical/User Support
+
+-----------------------------------------------------------------------
+Experience
+-----------------------------------------------------------------------
+
+VERIZON WIRELESS - Irvine, CA
+Senior Project Manager, 10/01 to 3/02
+
+Program manager contracted by CompuWizards for Verizon Wireless west 
+area IT real estate initiatives.  Functional management of 
+telecommunication and data communication activities with real estate 
+portfolio managers, IT project managers, and mobile telephone switching 
+office project leads.  Managed 40+ projects using MS Project, Visio, 
+and Excel.  Compiled cost analysis data for proposed infrastructure 
+moves.  Engaged various business activity leads to gather and refine 
+technology needs.  Advised director of telecommunications regarding 
+fiscal year resource allocations for key projects.  Provided weekly 
+and as required project updates to executive leadership.  Performed 
+weekly directorate level review of proposed infrastructure change 
+controls.
+
+*** Key Accomplishments ***
+
+- Managed realignment of real estate and telecommunications project 
+management.  Opened communications between six western real estate 
+regions.  Realigned project requests, budgeting, reporting, and 
+resource allocation.
+
+- Technical advisor for regional data center consolidation project.  
+Coordinated area telecommunication infrastructure requirements with 
+data center timelines.  Single point of contact for project change
+management.
+
+
+ARROW ELECTRONICS, INC. - Denver, CO / Melville, NY
+MIS Project Manager, 7/00 to 8/01
+
+Administered infrastructure and application development projects 
+crossing multiple business groups.  Coordinated commissioning, 
+decommissioning, relocating, and merging various sales offices and 
+warehouse facilities across North America.  Lead diverse teams of 
+functional users, technical leads, and facilities managers while 
+ensuring scope and stakeholder expectations were met.  Identified 
+critical paths and managed risks to schedule and budget.  Created and 
+maintained budgets, plans, and project documentation using MS Project, 
+Visio, and Office suite.  Distributed status reports and briefed all 
+levels of management on project status.  Prioritized work assignments 
+of up to 20 team members from telecom, networking, facilities, 
+application development, and data implementations groups.  Mitigated 
+scope changes with stakeholders.  Ensured timely vertical / horizontal 
+flow of information among team members and sponsors.
+
+*** Key Accomplishments ***
+
+- Managed technical relocation of 351,000 sq ft warehouse to new 
+facility.  Managed $1.5 million MIS budget.  Quick adaptation to 
+changing requirements resulted in infrastructure availability, 
+ensuring no loss to warehouse productivity.
+
+- Coordinated rapid decommission of 32 sales branches after corporate 
+merger.  Allowed early lease termination settlements resulting in 
+significant cost savings to corporation.
+
+
+AIR FORCE PERSONNEL CENTER - San Antonio, TX
+Software Development Manager, 5/96 to 5/00
+
+Managed fifteen-member application development team to reengineer 
+COBOL-based human resources system into Oracle HRMS 10.7 / Oracle 7.3 
+in WinNT client / Unix server environment.  Technical and management 
+responsibility for user requirements analysis, development solution 
+design, and software fielding.  Used Designer/2000 CASE tools to 
+document user requirements and PL/SQL code module generation.  
+Developed complex data models to third normal form.  Designed and 
+implemented key/descriptive flexfield structures and common lookups.  
+Integration testing across multiple environments using Mercury Test 
+Director.  Prioritized and delegated assignments.  Hired and managed 
+programmers.  Trained development staff and functional area experts on 
+Oracle HRMS use.  Liaison between functional user community and 
+development personnel.  Briefed upper management on project status, 
+possible problem areas, and solutions. Analyzed user requirements for 
+technical feasibility and logical process flow.  Implemented 20+ 
+distinct task flows for wide-area use.  Wrote PL/SQL program units and 
+interface programs.  Webmaster for local enlisted group, generating 
+pages in FrontPage, HTML, CSS, and JavaScript.
+
+*** Key Accomplishments ***
+
+- Completed functional decomposition of two personnel accession 
+subsystems – identified 250+ business rules through functional 
+interviews and code reviews, ensuring thorough subsystem integration.
+
+- Designed/developed critical interface between HRMS and OTA to ensure 
+course information was linked to applicant records in real-time.  
+Allows military recruiters to schedule and cancel applicant training 
+to ensure maximum seating in technical school classrooms. 
+
+
+WWMCCS NETWORK OPERATIONS CENTER - Pentagon, DC
+Network Manager, 9/91 to 5/96
+
+Managed daily operations of military wide area network center. 
+Responsible for teleconference management, secure access, and 
+scheduling mainframe maintenance across 26 Honeywell mainframe sites 
+worldwide.  Provided technical guidance to new personnel on GCOS and 
+Unix based systems.  Systems administrator on Sun Solaris network.  
+Scheduled personnel for 24x7 operations.  Briefed management on network 
+trends and possible solutions to unscheduled network outages.  Center 
+Webmaster, generating HTML code and maintaining site.
+
+*** Key Accomplishments ***
+
+- Developed stand-alone relational database using dBase II for 
+recording and reporting site outages.  Provided management with the 
+ability to perform accurate network trend analysis.
+
+- Coordinated security downgrade of 23 installations from Top Secret to 
+Secret.  Ensured no loss of service or compromise of sensitive military 
+data.
+
+
+AIR FORCE HUMAN RESOURCES LABORATORY - San Antonio, TX
+Senior Systems Analyst, 7/88 to 9/91
+
+Assisted in overall project design of psychological research studies 
+for Department of Defense activities.  Encoded, debugged, and 
+implemented programs for mathematical / statistical analysis on 
+Honeywell mainframe using COBOL pre-compiler language.  Wrote Pascal, 
+SAS, and Basic programs on MS-DOS/Win based small computers.  Mentored 
+new developers on top-down programming strategies, code reuse, and 
+systems analysis.
+
+*** Key Accomplishments ***
+
+- Developed automated system for identifying deliberate failures on 
+armed forces entrance examinations.  System deployed to armed forces 
+recruiting stations worldwide.
+
+- Coded and administered armed services retesting software – used to 
+identify possible violations of recruitment testing procedures.  
+Resulted in numerous terminations of fraudulent enlistments.
+
+-----------------------------------------------------------------------
+Education
+-----------------------------------------------------------------------
+
+WEBSTER UNIVERSITY - St. Louis, MO
+M.A., Computer Resources and Information Management, 1995
+
+WAYLAND BAPTIST UNIVERSITY - Plainview, TX
+B.S., Business (Minor: Computer Studies), 1991
+
+COMMUNITY COLLEGE OF THE AIR FORCE
+A.S., Information Systems Management, 1987
+
+-----------------------------------------------------------------------
+Technical Certifications
+-----------------------------------------------------------------------
+
+Oracle Master, Designer/2000 Designer/Developer, 1996
+Oracle Master, Designer/2000 Systems Analyst, 1996
+
+-----------------------------------------------------------------------
+Security Clearance
+-----------------------------------------------------------------------
+
+Top Secret (TS-SSBI), Last used 1996
+

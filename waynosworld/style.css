@@ -1,0 +1,213 @@
+BODY	{	margin-left:	5px;
+		background: 	white;
+		font-size:	10pt;
+		color:		black;
+		font-style:	normal;
+		font-weight:	normal;
+		font-family:	Verdana, Arial }
+
+A:link     {	color:		#990000;
+		text-decoration: underline }
+
+A:visited  {	color:		#888888;
+		text-decoration: underline }
+ 
+A:active  {	color:		#8b8989;
+		text-decoration: underline }
+ 
+A:hover   {	color:		#ff0000;
+		text-decoration: underline }
+ 
+B	{	font-weight:	bold; }
+
+EM	{	font-size:	12pt;
+		color:		#000090;
+		text-decoration: none;
+		font-style:	italic;
+		font-weight:	bold;
+		font-family:	Arial }
+
+PRE	{	font-size:	8pt;
+		color:		black;
+		text-decoration: none;
+		font-style:	normal;
+		font-weight:	normal;
+		font-family:	monospace }
+
+DT	{	clear:		left }
+
+.nav	{	font-size:	9pt;
+		line-height:	14pt;
+		color:		#000090;
+		font-style:	normal;
+		text-decoration: none;
+		font-family:	Arial }
+
+A.nav:hover	{color:		#990000;}
+
+.nav2gr        {font-size:	8pt;
+		color:		gray;
+		font-weight:	bold;
+		text-decoration: none;
+		font-family:	Arial }
+
+A.nav2gr:link  {font-size:	9pt;
+		color:		black;
+		font-weight:	bold;
+		text-decoration: none;
+		font-family:	Arial }
+
+A.nav2gr:visited  {font-size:	9pt;
+		color:		#666666;
+		font-weight:	bold;
+		text-decoration: none;
+		font-family:	Arial }
+
+A.nav2gr:hover {font-size:	9pt;
+		color:		#990000;
+		font-weight:	bold;
+		text-decoration: none;
+		font-family:	Arial }
+
+.nav2bl	{	font-size:	9pt;
+		color:		#990000;
+		font-weight:	bold;
+		text-decoration: none;
+		font-family:	Arial }
+
+.nav2wh	{	font-size:	8pt;
+		color:		white;
+		font-weight:	bold;
+		text-decoration: none;
+		font-family:	Verdana, Arial }
+
+.nav2y	{	font-size:	8pt;
+		color:		#fa9c00;
+		font-weight:	normal;
+		text-decoration: none;
+		font-family:	Arial }
+
+.bigyel	{	font-size:	14pt;
+		color:		#fa9c00;
+		font-weight:	normal;
+		text-decoration: none;
+		font-family:	Arial }
+
+.bigred	{	font-size:	12pt;
+		color:		#ff0000;
+		font-weight:	bold;
+		text-decoration: none;
+		font-family:	Arial }
+
+.nav2yb	{	font-size:	8pt;
+		color:		#fa9c00;
+		font-weight:	bold;
+		text-decoration: none;
+		font-family:	Arial }
+
+.nav2r	{	font-size:	8pt;
+		color:		#990000;
+		font-weight:	normal;
+		text-decoration: none;
+		font-family:	Arial }
+
+.nav-sel {	font-size:	9pt;
+		line-height:	14pt;
+		color:		red;
+		font-style:	normal;
+		font-weight:	bold;
+		text-decoration: none;
+		font-family:	Arial }
+
+.title	{	font-size:	18pt;
+		color:		black;
+		font-style:	normal;
+		font-weight:	bold;
+		font-family:	Verdana, Arial }
+
+.titler	{	font-size:	18pt;
+		color:		#808080;
+		font-style:	normal;
+		font-weight:	bold;
+		font-family:	Verdana, Arial }
+
+.titles	{	font-size:	22pt;
+		color:		silver;
+		font-style:	normal;
+		font-weight:	bold;
+		font-family:	Verdana, Arial }
+
+.titlered {	font-size:	22pt;
+		color:		#990000;
+		font-style:	normal;
+		font-weight:	bold;
+		font-family:	Verdana, Arial }
+
+.titlew	{	font-size:	22pt;
+		color:		white;
+		font-style:	normal;
+		font-weight:	bold;
+		font-family:	Verdana, Arial }
+
+.title2	{	font-size:	16pt;
+		color:		white;
+		font-style:	normal;
+		font-weight:	bold;
+		font-family:	Verdana, Arial }
+
+.jtitlew {	font-size:	14pt;
+		color:		#eeeeee;
+		font-style:	normal;
+		font-weight:	normal;
+		font-family:	Verdana, Arial }
+
+.jtitler {	font-size:	11pt;
+		color:		#0000aa;
+		font-style:	normal;
+		font-weight:	bold;
+		font-family:	Verdana, Arial }
+
+.normal	{	font-size:	10pt;
+		color:		black;
+		font-style:	normal;
+		text-decoration: none;
+		font-weight:	normal;
+		font-family:	Arial }
+
+.normals {	font-size:	10pt;
+		color:		silver;
+		font-style:	normal;
+		text-decoration: none;
+		font-weight:	normal;
+		font-family:	Verdana, Arial }
+
+.normalw {	font-size:	10pt;
+		color:		white;
+		font-style:	normal;
+		text-decoration: none;
+		font-weight:	normal;
+		font-family:	Verdana, Arial }
+
+.abnormal {	font-size:	8pt;
+		color:		black;
+		text-decoration: none;
+		font-weight:	normal;
+		font-family:	Verdana, Arial }
+
+.small	{	font-size:	8pt;
+		color:		black;
+		text-decoration: none;
+		font-family:	Arial }
+
+.subtitle  {	font-size:	12pt;
+		color:		black;
+		font-style:	normal;
+		font-weight:	bold;
+		font-family:	Arial }
+
+.tiny	{	font-size:	6pt;
+		color:		black;
+		text-decoration: none;
+		font-family:	Arial }
+
+

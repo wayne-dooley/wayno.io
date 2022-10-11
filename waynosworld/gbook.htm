@@ -1,0 +1,197 @@
+<HTML>
+
+<HEAD>
+
+<link rel="SHORTCUT ICON" href="favicon.ico">
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- 
+function CC_noErrors() {
+return true;
+}
+window.onerror = CC_noErrors;
+// -->
+</SCRIPT>
+
+<SCRIPT language="JavaScript">
+da_image = new Image();
+da_image.src="favicon.ico";
+</SCRIPT>
+
+<link rel=stylesheet type="text/css" href="style.css">
+
+<script language="Javascript">
+
+
+        <!--
+        // Copyright 1996 - Frank Ammermann (Frank@Ammermann.com)
+        // http://www.et-inf.fho-emden.de/~frank
+        // Feel free to "steal" this code provided that you leave the
+        // notice as is !!!!!
+
+        // Add this to your form tag:
+        // <form action="..." name=guestbook onSubmit="return validateForm()">
+
+        function deleteBlanks(str){
+        var foundBlank = 1;
+        var len;
+        len = str.length;
+        if (len == 0) return str;
+        while (foundBlank == 1)
+            {   var indx;
+                indx = str.indexOf(" ", 0);
+                if (indx == -1) {foundBlank =0;}
+                else {str= str.substring(0, indx) +
+                        str.substring(indx + 1, len);}}
+        return str;}
+
+        function validateForm() {
+
+        var localPost = deleteBlanks(document.LiveFORM.lfgbcomment.value.toLowerCase());
+
+        if (localPost=="")
+              {alert('A guest without a comment is like a ship without a sail!');
+                return false}
+        else if (localPost.indexOf("<form")!=-1)
+              {alert('No forms in the comment, please !');
+               return false}
+        else if (localPost.indexOf("<script")!=-1)
+              {alert('No scripts in the comment, please !');
+               return false}
+        else if (localPost.indexOf("<applet")!=-1)
+              {alert('No applets in the comment, please !');
+               return false}
+        else if (localPost.indexOf("<title")!=-1)
+              {alert('No title-tag in the comment, please !');
+               return false}
+        else if (localPost.indexOf("<body")!=-1)
+              {alert('No body-tag in the comment, please !');
+               return false}
+        else if (localPost.indexOf("<object")!=-1)
+              {alert('No ActiveX in the comment, please !');
+               return false}
+        else if (localPost.indexOf("<embed")!=-1)
+              {alert('No Sound in the comment, please !');
+               return false}
+        else if (localPost.indexOf("<meta")!=-1)
+              {alert('No meta info in the comment, please !');
+               return false}
+        else if (localPost.indexOf("<bgsound")!=-1)
+              {alert('No Sound in the comment, please !');
+               return false}
+        else return true;}
+
+        // End of Script (c) Frank Ammermann (Frank@Ammermann.com)-->
+
+</script>
+
+<TITLE>Wayno's World</TITLE>
+
+<BODY onLoad="document.f.p.focus();" bgcolor="#ffffff" marginwidth="0" marginheight="0" topmargin="0" leftmargin="0" style="margin: 0em">
+
+<center>
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+<tr>
+<td colspan=4 bgcolor="#000000" width="100%"><img src="transpixel.gif" border=0 height=10></td>
+</tr>
+<tr>
+<td bgcolor="#000000" width=50%><img src="transpixel.gif" border=0 height=40></td>
+<td bgcolor="#000000" width=32><img src="earth-c06.gif" border=0 width=32 height=32></td>
+<td bgcolor="#000000" width=738><img src="ww_15.jpg" border=0 width=452 height=39><img src="transpixel.gif" border=0 height=1 width=286></td>
+<td bgcolor="#000000" width=50%><img src="transpixel.gif" border=0 height=40></td>
+</tr>
+<tr>
+<td colspan=4 bgcolor="#666666" width="100%"><img src="transpixel.gif" border=0 height=1></td>
+</tr>
+  <tr>
+    <td colspan=1 bgcolor="#dddddd"><img src="transpixel.gif" border=0 height=1></td>
+        <td align="left" colspan=3 bgcolor="#dddddd">&nbsp;<nobr><a class=nav2gr href="index.htm">home</a><font class=nav2r>&nbsp;&nbsp;&#149;&nbsp;</font></nobr>
+          <nobr><a class=nav2gr href="links.htm">links</a><font class=nav2r>&nbsp;&nbsp;&#149;&nbsp;</font></nobr>
+          <nobr><a class=nav2gr href="photos1.htm">photos</a><font class=nav2r>&nbsp;&nbsp;&#149;&nbsp;</font></nobr>
+      <nobr><a class=nav2gr href="humor.htm">humor</a><font class=nav2r>&nbsp;&nbsp;&#149;&nbsp;</font></nobr>
+          <nobr><a class=nav2gr href="aboutme.htm">about me</a><font class=nav2r>&nbsp;&nbsp;&#149;&nbsp;</font></nobr>
+          <nobr><a class=nav2gr href="resume.htm">resum&#233;</a><font class=nav2r>&nbsp;&nbsp;&#149;&nbsp;</font></nobr>
+          <nobr><font class=nav2bl>[ sign guestbook ]</font><font class=nav2r>&nbsp;&nbsp;&#149;&nbsp;</font></nobr>
+      <nobr><a class=nav2gr target="_NEW" href="http://htmlgear.lycos.com/guest/control.guest?u=wayne_dooley&i=1&a=view">view guestbook</a></nobr></font></td>
+  </tr>
+<tr>
+<td colspan=4 bgcolor="#666666" width="100%"><img src="transpixel.gif" border=0 height=1></td>
+</tr>
+</table>
+
+<img src="transpixel.gif" border=0 height=10>
+
+<!-- Title and Site Navigation End -->
+
+
+<!-- Main Body -->
+
+<table width=770 cellpadding=0 cellspacing=0 border=0>
+<tr>
+<td>
+
+<font class="title">guestbook</font>
+
+<font class="normal">
+<p>
+Please sign in!  Tell me what you think of my page.  Then, <a target="_NEW" href="http://htmlgear.lycos.com/guest/control.guest?u=wayne_dooley&i=1&a=view">view the guestbook</a> and see what others have said.</font><P>
+
+<!--do not change these next lines-->
+<form method="post" name="LiveFORM"
+action="http://www.lpage.com/wgb/wgb.dbm?owner=wdooley">
+<input type="hidden" name="copyright"
+    value="Copyright (C) 1996,1997 Patil Systems, Inc.">
+<input type="hidden" name="verno" value="1.7">
+
+<!--here you can add your own requirements for your guests 
+and a message if they do not add the fields you request.  follow
+these standards-->
+<!-- <input type=hidden name="lfgbcomment_required" value="Please enter comments">
+<input type=hidden name="fullname_required" value="Please enter your name"> -->
+
+<!--here are the rest of the basic fields-->
+<font class="normal" size=-1>
+Name<br>&nbsp;&nbsp;<input name="fullname" size=30 maxlength=60><p>
+E-mail Address<br>&nbsp;&nbsp;<input name="email" size=30><p>
+Homepage URL<br>&nbsp;&nbsp;<input name="homepage" value="http://" size=30><P>
+Title of your homepage<br>&nbsp;&nbsp;<input name="hometitle" size=30 maxlength=60><P>
+Your location<br>&nbsp;&nbsp;<input name=location size=30><P>
+
+<!--here you can change the options for how your guests found your site-->
+How you found me<br>&nbsp;&nbsp;<SELECT NAME="reference" >
+<OPTION selected>A Guestbook Entry
+<OPTION>Geocities
+<OPTION>Switchboard
+<OPTION>Four11
+<OPTION>Net Search
+<OPTION>Family
+<OPTION>Friends
+<OPTION>Friends of the Family
+<OPTION>NewsGroup
+<OPTION>Mistyped a naughty URL
+<OPTION>Other
+<OPTION>Like, who really cares?
+</SELECT><p>
+
+<input name=private type=checkbox>Check here if you'd like this
+to be a private message<P>
+Comments:<br>
+<TEXTAREA NAME="lfgbcomment" COLS=40 ROWS=8></textarea><p>
+<input type="submit" value="Sign Guestbook">
+<input type="reset" value="Reset">
+</form><p>
+
+<font class="small">
+
+<i>Guestbook services provided by </i></font>
+<a href="http://www.Lpage.com/" target="_top"><img src="gwlogosm.gif" width=57 height=60 border=0 align=middle alt="Lpage"></a>
+
+<hr size=1 noshade>
+
+</td>
+</tr>
+</table>
+
+</center>
+</BODY>
+</HTML>

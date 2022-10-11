@@ -1,0 +1,120 @@
+BODY
+{
+    FONT-SIZE: 9pt;
+    FONT-FAMILY: Arial
+}
+TD
+{
+    FONT-SIZE: 9pt;
+    FONT-FAMILY: Arial
+}
+.SectionTitle
+{
+    FONT-WEIGHT: 600;
+    FONT-SIZE: 11pt;
+    FONT-FAMILY: Arial
+}
+.PageTitle
+{
+    FONT-WEIGHT: 500;
+    FONT-SIZE: 16pt;
+    FONT-FAMILY: Arial
+}
+.SystemError
+{
+    FONT-WEIGHT: lighter;
+    FONT-SIZE: 13pt;
+    FONT-FAMILY: Arial
+}
+.NormalEmphasis
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Arial
+}
+.ParaTitle
+{
+    FONT-WEIGHT: 600;
+    FONT-SIZE: 9pt;
+    FONT-FAMILY: Arial
+}
+.ProductTitle
+{
+    FONT-WEIGHT: 600;
+    FONT-SIZE: 14pt;
+    FONT-FAMILY: Arial
+}
+.ProductInfoItems
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 9pt;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: underline
+}
+.HotTopicItem
+{
+    FONT-SIZE: 10px;
+    FONT-FAMILY: Arial
+}
+.PressHeader
+{
+    FONT-SIZE: 16px;
+    COLOR: black;
+    FONT-FAMILY: Arial
+}
+.SmallInfoHeading
+{
+    FONT-WEIGHT: 600;
+    FONT-SIZE: 9pt;
+    COLOR: white;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: steelblue
+}
+.ItemSep
+{
+    BACKGROUND-COLOR: #cccccc
+}
+.Blue
+{
+    COLOR: blue
+}
+.Red
+{
+    COLOR: red
+}
+.Green
+{
+    COLOR: green
+}
+.GlossaryTerm
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 12px
+}
+.GlossaryDef
+{
+    FONT-SIZE: 12px
+}
+SELECT
+{
+    FONT-SIZE: 9pt;
+    FONT-FAMILY: Arial
+}
+TEXTAREA
+{
+    FONT-SIZE: 9pt;
+    FONT-FAMILY: Arial
+}
+.ResultHeader
+{
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #4682b4
+}
+.ResultEven
+{
+    BACKGROUND-COLOR: #ffffff
+}
+.ResultOdd
+{
+    BACKGROUND-COLOR: #f5f5f5
+}
