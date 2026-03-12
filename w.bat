@@ -1,0 +1,1 @@
+bundle _2.6.9_ exec jekyll serve
